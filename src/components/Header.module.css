@@ -30,13 +30,12 @@ header {
         width: 400px;
         min-width: 50px;
         max-width: 500px;
-        transition-duration: 200ms;
+        transition: border 200ms;
         border-radius: 30px;
     }
 
     .search:focus {
         border: 2px solid aliceblue;
-        width: 100px;
     }
 
     .search::placeholder {
