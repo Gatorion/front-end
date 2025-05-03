@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './SocialMedia.module.css'
-import profilePicture from '../assets/img/UserPicture1.png'
+import profilePicture from '../../assets/img/UserPicture1.png'
 
 const SocialMedia = (props) => {
     return (

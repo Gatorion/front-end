@@ -5,7 +5,6 @@ import Logo from '/src/assets/img/Logo.svg'
 import settingIcon from '/src/assets/img/settingIcon.svg'
 import brightnessIcon from '/src/assets/img/brightness.svg'
 import notificationIcon from '/src/assets/img/notificationIcon.svg'
-import searchIcon from '/src/assets/img/searchIcon.svg'
 
 
 const Header = () => {

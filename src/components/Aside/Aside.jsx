@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfileCard from './ProfileCard'
+import ProfileCard from '../Profile/ProfileCard'
 import styles from './Aside.module.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
