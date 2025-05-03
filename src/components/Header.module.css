@@ -1,0 +1,100 @@
+header {
+    display: flex;
+    background: #0A182E;
+    flex-direction: row;
+    border-bottom: 2px solid #4cb7ff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    min-height: 7vh;
+    max-height: 120px;
+    min-width: 100%;
+    justify-content: space-between;
+    padding: 1vw 5vw;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: auto;
+
+    .search {
+        padding: 10px 10px 10px 40px;
+        margin: 1vh;
+        background: url('/src/assets/img/searchIcon.svg') no-repeat 10px center;
+        background-size: 20px;
+        background-color: transparent;
+        border-radius: 5px;
+        border: 2px solid #4cb7ff;
+        min-height: 25px;
+        outline: none;
+        color: white;
+        width: 400px;
+        min-width: 50px;
+        max-width: 500px;
+        transition-duration: 200ms;
+        border-radius: 30px;
+    }
+
+    .search:focus {
+        border: 2px solid aliceblue;
+        width: 100px;
+    }
+
+    .search::placeholder {
+        color: #4cb7ff;
+        opacity: 1;
+    }
+
+    .containerButtons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 12rem;
+        height: auto;
+        gap: 10px;
+    }
+
+    .theme {
+        border: 2px transparent;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        background: transparent;
+        min-height: 32px;
+        min-width: 32px;
+    }
+
+    .profilePic {
+        border: 2px transparent;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        min-height: 32px;
+        min-width: 32px;
+    }
+
+    .settings {
+        border: 2px transparent;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        background: transparent;
+        min-height: 32px;
+        min-width: 32px;
+    }
+
+    .notification {
+        border: 2px transparent;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        background: transparent;
+        min-height: 32px;
+        min-width: 32px;
+    }
+}
+
+header .logo,
+header .search,
+header .containerButtons {
+    max-height: 100%;
+}
