@@ -1,0 +1,10 @@
+aside {
+    display: flex;
+    margin: 2vh 2vw;
+    position: absolute;
+    border: 2px transparent;
+    width: 23.3%;
+    color: aliceblue;
+    border-radius: 7px;
+    height: 85%;
+}
