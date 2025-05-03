@@ -1,23 +1,42 @@
 import React from 'react'
 import styles from './SocialMedia.module.css'
-import PostImage from '../assets/img/PostPicture.png'
+import profilePicture from '../assets/img/UserPicture1.png'
 
-const SocialMedia = () => {
+const SocialMedia = (props) => {
     return (
         <>
             <main>
                 <article className={styles.postBody}>
                     <div className={styles.profile}>
-                        <img className={styles.profileImage} src='' alt='' />
-                        <h2>Asteros</h2>
-                        <code>@asteros</code>
-                        <time>20 min</time>
+                        <img className={styles.profilePicture} src={profilePicture} alt='Foto de Perfil do Usuário' />
+                        <div className={styles.profileInfo}>
+                            <h2>Asteros</h2>
+                            <p>
+                                <code>@asteros</code>
+                                <time>20 min</time>
+                            </p>
+                        </div>
                     </div>
                     <div className={styles.postContent}>
-                        <p>Finalmente lançamos nossa plataforma! Esperamos que aproveitem ao máximo essa jornada astronômica!</p>
-                        <img src={PostImage} alt='' />
+                        <p>{props.postText}</p>
+                        <img src={props.postImage} alt='Imagem de Post do Usuário' />
+                    </div>
+                    <div className={styles.interactionButtons}>
+                        <button type="button" aria-label='Curtir'>
+                            <i className="fas fa-rocket"></i> {props.postLikes}
+                        </button>
+                        <button type="button" aria-label='Comentar'>
+                            <i className="fas fa-comment"></i> {props.postComents}
+                        </button>
+                        <button type="button" aria-label='Compartilhar'>
+                            <i className="fas fa-share"></i> {props.postShares}
+                        </button>
+                        <button type="button" aria-label='Estatísticas'>
+                            <i className="fas fa-chart-bar"></i> {props.postStatistics}
+                        </button>
                     </div>
                 </article>
+                <br />
             </main>
         </>
     )
