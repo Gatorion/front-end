@@ -1,0 +1,18 @@
+.postBody {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    max-width: 100vw;
+}
+
+.postContent {
+    img {
+        justify-self: center;
+        align-self: centers;
+        width: 60%;
+    }
+}
