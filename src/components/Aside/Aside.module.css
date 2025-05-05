@@ -1,5 +1,5 @@
 Aside {
-    margin-top: 150px;
+    margin-top: 36px;
     flex-direction: column;
     border: 2px transparent;
     color: aliceblue;
@@ -17,6 +17,8 @@ Aside {
     padding: 10px;
     display: flex;
     flex-direction: column;
+
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.445);
 
     a {
         text-decoration: none;
