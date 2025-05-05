@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-.titulo h1 {
+.Titulo h1 {
     color: white;
     font-family: 'Orbitron';
 }
 
-.titulo span {
+.Titulo span {
     display: grid;
     color: #5BCFEF;
 }
 
-.conteudo {
+.Conteudo {
     display: grid;
     gap: 20px;
     place-content: center;
@@ -18,20 +18,20 @@
     margin: 30px 100px;
 }
 
-.faq h4 {
+.Faq h4 {
     color: #5BCFEF;
 }
 
-.faq p {
+.Faq p {
     color: white;
 }
 
-.faq hr {
+.Faq hr {
     border: 0.1px solid;
     color: #003A6D;
 }
 
-.faq {
+.Faq {
     display: grid;
     gap: 20px;
 }
