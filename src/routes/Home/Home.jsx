@@ -11,6 +11,8 @@ import SecondSectionAstronauts from '../../assets/img/SecondSectionAstronauts.sv
 import IconBrain from '../../assets/img/iconBrain.svg';
 import IconPerson from '../../assets/img/iconPerson.svg';
 import IconWeb from '../../assets/img/iconWeb.svg';
+import ThirdSectionAstronaut from '../../assets/img/thirdSectionAstronaut.svg';
+import ThirdSectionObservatory from '../../assets/img/thirdSectionObservatory.svg';
 
 const Home = ()=>{
     return(
@@ -37,13 +39,23 @@ const Home = ()=>{
                 <div className={styles.containerContent}>
                     <CardContentThirdSection icon={IconWeb} title='MANTENHA-SE ATUALIZADO' content='Além de aprender o que já foi descoberto, fique por dentro das novidades e dos próximos eventos que vão acontecer.' />
                     <CardContentThirdSection icon={IconPerson} title='COMPARTILHE CONHECIMENTO' content='Compartilhe suas próprias descobertas e teorias  conosco; inicie bate-papos e discussões.' />
-                    <CardContentThirdSection icon={IconWeb} title='CONHEÇA PROFISSIONAIS' content='Se conecte com profissionais da área, verificados pela plataforma e interaja com suas publicações.' />
+                    <CardContentThirdSection icon={IconBrain} title='CONHEÇA PROFISSIONAIS' content='Se conecte com profissionais da área, verificados pela plataforma e interaja com suas publicações.' />
                 </div>
                 <div className={styles.containerContent}>
-
+                    <div className={styles.text}>
+                        <h2><span className={styles.highlightText}>Explore</span> o espaço <br /> enquanto aprende</h2>
+                        <p>Aprenda sobre o cosmos de forma divertida com missões, desafios e conquistas que fazem cada descoberta valer a pena.</p>
+                        <Button content='VER PLANOS' link='#' />
+                    </div>
+                    <img src={ThirdSectionAstronaut} alt="" />
                 </div>
                 <div className={styles.containerContent}>
-
+                    <img src={ThirdSectionObservatory} alt="" />
+                    <div className="text">
+                        <h2>Explore com nosso <span className={styles.highlightText}>observatório</span></h2>
+                        <p>Através do modelo 3D  observe todo o universo em tempo real ou simule outras datas.</p>
+                        <Button content='CRIAR CONTA' link='#' />
+                    </div>
                 </div>
             </section>
         </main>
