@@ -2,10 +2,15 @@ import styles from './Home.module.css';
 
 import Button from '../../components/Button/Button';
 import CardContent from '../../components/CardContent/CardContent';
+import CardContentThirdSection from '../../components/CardContentThirdSection/CardContentThirdSection';
 
 import ContainerSearchIcon from '../../assets/img/ContainerSearchIcon.svg';
 import ContainerPlayIcon from '../../assets/img/ContainerPlayerIcon.svg';
 import ContainerBookIcon from '../../assets/img/ContainerBookIcon.svg';
+import SecondSectionAstronauts from '../../assets/img/SecondSectionAstronauts.svg';
+import IconBrain from '../../assets/img/iconBrain.svg';
+import IconPerson from '../../assets/img/iconPerson.svg';
+import IconWeb from '../../assets/img/iconWeb.svg';
 
 const Home = ()=>{
     return(
@@ -21,10 +26,24 @@ const Home = ()=>{
                 </div>
             </section>
             <section className={styles.secondSection}>
-                <div className="content">
-                    <h2>Conecte-se com outros viajantes</h2>
+                <div className={styles.content}>
+                    <h2><span className={styles.highlightText}>Conecte-se</span> com outros viajantes</h2>
                     <p>Se conecte com outros estudantes ou com um profissional da área.</p>
                     <Button content='VER PLANOS' link='#'/>
+                </div>
+                <img src={SecondSectionAstronauts} alt="" />
+            </section>
+            <section className={styles.thirdSection}>
+                <div className={styles.containerContent}>
+                    <CardContentThirdSection icon={IconWeb} title='MANTENHA-SE ATUALIZADO' content='Além de aprender o que já foi descoberto, fique por dentro das novidades e dos próximos eventos que vão acontecer.' />
+                    <CardContentThirdSection icon={IconPerson} title='COMPARTILHE CONHECIMENTO' content='Compartilhe suas próprias descobertas e teorias  conosco; inicie bate-papos e discussões.' />
+                    <CardContentThirdSection icon={IconWeb} title='CONHEÇA PROFISSIONAIS' content='Se conecte com profissionais da área, verificados pela plataforma e interaja com suas publicações.' />
+                </div>
+                <div className={styles.containerContent}>
+
+                </div>
+                <div className={styles.containerContent}>
+
                 </div>
             </section>
         </main>
