@@ -12,24 +12,24 @@ import IconBrain from '../../assets/img/iconBrain.svg';
 import IconPerson from '../../assets/img/iconPerson.svg';
 import IconWeb from '../../assets/img/iconWeb.svg';
 
-const Home = ()=>{
-    return(
+const Home = () => {
+    return (
         <main>
             <section className={styles.firstSection}>
                 <h1>Desenvolva Seus <br /> Estudos em <span className={styles.highlightText}>Astronomia</span></h1>
                 <p>Se conecte com profissionais de astronomias, estudantes <br /> e aprenda com nossos jogos e materiais de estudos.</p>
-                <Button content="VER PLANOS" link="#"/>
+                <Button content="VER PLANOS" link="#" />
                 <div className={styles.containerCards}>
-                    <CardContent icon={ContainerSearchIcon} title="ESTUDO" content="Materiais descritivos e pesquisas (em português)."/>
-                    <CardContent icon={ContainerPlayIcon} title="JOGOS" content="Plataforma gameficada com conteúdo astronômico."/>
-                    <CardContent icon={ContainerBookIcon} title="ARTIGOS" content="Artigos científicos sobre o espaço (em português)."/>
+                    <CardContent icon={ContainerSearchIcon} title="ESTUDO" content="Materiais descritivos e pesquisas (em português)." />
+                    <CardContent icon={ContainerPlayIcon} title="JOGOS" content="Plataforma gameficada com conteúdo astronômico." />
+                    <CardContent icon={ContainerBookIcon} title="ARTIGOS" content="Artigos científicos sobre o espaço (em português)." />
                 </div>
             </section>
             <section className={styles.secondSection}>
                 <div className={styles.content}>
                     <h2><span className={styles.highlightText}>Conecte-se</span> com outros viajantes</h2>
                     <p>Se conecte com outros estudantes ou com um profissional da área.</p>
-                    <Button content='VER PLANOS' link='#'/>
+                    <Button content='VER PLANOS' link='#' />
                 </div>
                 <img src={SecondSectionAstronauts} alt="" />
             </section>
