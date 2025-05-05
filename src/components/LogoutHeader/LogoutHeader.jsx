@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '/src/assets/img/Logo.svg'
 import brightnessIcon from '/src/assets/img/brightness.svg'
 import styles from './LogoutHeader.module.css'
+import { Navigate } from 'react-router-dom'
 
 const LogoutHeader = () => {
     return (
