@@ -1,13 +1,17 @@
 import Aside from '../../components/Aside/Aside';
 import SocialMedia from '../../components/SocialMedia/SocialMedia';
 import PostImage from '../../assets/img/PostPicture.png'
+import styles from '../Feed/Feed.module.css'
+import PostInput from '../../components/PostInput/PostInput';
 
 const Feed = () => {
     return (
         <>
-            <div className='content'>
+            <div className={styles.container}>
                 <Aside />
-                <div className='posts'>
+                <div className={styles.posts}>
+
+                    <PostInput />
                     <SocialMedia
                         postText='Finalmente lançamos nossa plataforma! Esperamos que aproveitem ao máximo essa jornada astronômica! 🚀💫'
                         postImage={PostImage}

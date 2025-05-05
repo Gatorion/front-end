@@ -8,13 +8,13 @@ header {
     top: 0;
     z-index: 1000;
     min-height: 7vh;
-    max-height: 120px;
+    max-height: 100px;
     min-width: 100%;
     justify-content: space-between;
     padding: 1vw 5vw;
     align-items: center;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: hidden !important;
 
     .search {
         padding: 10px 10px 10px 40px;

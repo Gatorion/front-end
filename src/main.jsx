@@ -5,9 +5,13 @@ import App from './App.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+// Importação do estado de autenticação do usuário
+import { usuarioAutenticado } from './auth.js';
+
 // Importação das páginas
 import Home from './routes/Home/Home.jsx';
 import Feed from './routes/Feed/Feed.jsx';
+import ProtectedRoute from './components/ProtectedRoute.jsx';
 
 // Associação das rotas e suas respectivas páginas
 const router = createBrowserRouter([
@@ -18,11 +22,19 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />
+        element: (
+          <ProtectedRoute usuarioAutenticado={usuarioAutenticado}>
+            <Home />
+          </ProtectedRoute>
+        )
       },
       {
         path: '/feed',
-        element: <Feed />
+        element: (
+          <ProtectedRoute usuarioAutenticado={usuarioAutenticado}>
+            <Feed />
+          </ProtectedRoute>
+        )
       }
     ]
   }

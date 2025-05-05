@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    background: transparent;
+    margin-top: 36px;
+}
