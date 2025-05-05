@@ -4,7 +4,7 @@ header {
     flex-direction: row;
     border-bottom: 2px solid #4cb7ff;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1000;
     min-height: 7vh;

@@ -1,6 +1,6 @@
-import Aside from '../components/Aside/Aside';
-import SocialMedia from '../components/SocialMedia/SocialMedia';
-import PostImage from '../assets/img/PostPicture.png'
+import Aside from '../../components/Aside/Aside';
+import SocialMedia from '../../components/SocialMedia/SocialMedia';
+import PostImage from '../../assets/img/PostPicture.png'
 
 const Feed = () => {
     return (

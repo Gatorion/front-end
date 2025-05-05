@@ -6,8 +6,8 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // Importação das páginas
-import Home from './routes/Home.jsx';
-import Feed from './routes/Feed.jsx';
+import Home from './routes/Home/Home.jsx';
+import Feed from './routes/Feed/Feed.jsx';
 
 // Associação das rotas e suas respectivas páginas
 const router = createBrowserRouter([
