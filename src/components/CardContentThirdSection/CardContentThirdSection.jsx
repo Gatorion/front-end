@@ -1,9 +1,11 @@
 import styles from './CardContentThirdSection.module.css';
 
-const CardContentThirdSection = () => {
+const CardContentThirdSection = ({icon, title, content}) => {
     return (
-        <div className="container">
-            
+        <div className={styles.container}>
+            <img src={icon} alt="" />
+            <h2>{title}</h2>
+            <p>{content}</p>
         </div>
     )
 }

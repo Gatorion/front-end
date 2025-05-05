@@ -83,3 +83,26 @@ main {
     font-size: 24px;
     line-height: 31.2px;
 }
+
+.thirdSection{
+    min-height: fit-content;
+
+    padding-block: 96px;
+
+    background: radial-gradient(circle, #051422, #030D16);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdSection .containerContent:first-child{
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+}
+
+.thirdSection .containerContent:first-child :nth-child(2){
+    transform: translateY(-8px);
+}
+
