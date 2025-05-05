@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+header {
+    border-bottom: 2px solid #5BCFEF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: #0A182E;
+}
+
+.nav_bar {
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.links_nav {
+    list-style: none;
+    display: flex;
+}
+
+.links li {
+    padding: 1.25rem;
+}
+
+.links li a:hover {
+    border-bottom: 1px solid aliceblue;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.botoes button {
+    padding: 0.375rem 1.625rem;
+    margin: 0.625rem;
+    background-color: transparent;
+    color: #5BCFEF;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: 4px;
+    border: 2px solid #5BCFEF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.botoes button:hover {
+    color: #003A6D;
+    background-color: #5BCFEF;
+}
+
+.botoes button:focus {
+    outline: 2px solid #a0e9ff;
+    outline-offset: 2px;
+    border: 2px solid transparent;
+}
+
+.botoes button:nth-child(1) {
+    background: transparent;
+    border: none;
+}
+
+.botoes button:nth-child(1):hover {
+    transform: rotate(30deg);
+    /* Animação de rotação ao botão de tema */
+}
