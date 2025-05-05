@@ -4,7 +4,7 @@ body {
   color: #fff;
 }
 
-#root{
+#root {
   display: flex;
   flex-direction: column;
 }
@@ -16,13 +16,11 @@ body {
 }
 
 .posts {
-  margin: 75px;
+  margin: 16px 75px;
   padding: 20px;
-  margin-top: 130px;
 }
 
 Aside {
-  margin-top: 10px;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 30px;
   background: transparent !important;
 }
