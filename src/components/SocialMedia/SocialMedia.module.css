@@ -8,7 +8,7 @@
     border: 1px solid #00DDFF;
     border-radius: 10px;
     width: 100%;
-    /* Corrigido de 1fr para 100% */
+    max-width: 6.3in;
 }
 
 /* Estilos do Perfil */
