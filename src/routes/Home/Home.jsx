@@ -3,6 +3,7 @@ import styles from './Home.module.css';
 import Button from '../../components/Button/Button';
 import CardContent from '../../components/CardContent/CardContent';
 import CardContentThirdSection from '../../components/CardContentThirdSection/CardContentThirdSection';
+import SubscriptionCardContainer from '../../components/SubscriptionCardContainer/SubscriptionCardContainer';
 
 import ContainerSearchIcon from '../../assets/img/ContainerSearchIcon.svg';
 import ContainerPlayIcon from '../../assets/img/ContainerPlayerIcon.svg';
@@ -19,7 +20,7 @@ const Home = () => {
         <main>
             <section className={styles.firstSection}>
                 <h1>Desenvolva Seus <br /> Estudos em <span className={styles.highlightText}>Astronomia</span></h1>
-                <p>Se conecte com profissionais de astronomias, estudantes <br /> e aprenda com nossos jogos e materiais de estudos.</p>
+                <p>Se conecte com profissionais de astronomia, estudantes <br /> e aprenda com nossos jogos e materiais de estudos.</p>
                 <Button content="VER PLANOS" link="#" />
                 <div className={styles.containerCards}>
                     <CardContent icon={ContainerSearchIcon} title="ESTUDO" content="Materiais descritivos e pesquisas (em português)." />
@@ -57,6 +58,10 @@ const Home = () => {
                         <Button content='CRIAR CONTA' link='#' />
                     </div>
                 </div>
+            </section>
+            <section className={styles.fourthSection}>
+                <h2><span className={styles.highlightText}>Conecte-se</span> com quem também vive de olho nas estrelas</h2>
+                <SubscriptionCardContainer />
             </section>
         </main>
     );

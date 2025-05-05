@@ -1,0 +1,8 @@
+.container{
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 96px;
+}
