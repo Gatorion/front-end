@@ -6,6 +6,7 @@ import CardContent from '../../components/CardContent/CardContent';
 import ContainerSearchIcon from '../../assets/img/ContainerSearchIcon.svg';
 import ContainerPlayIcon from '../../assets/img/ContainerPlayerIcon.svg';
 import ContainerBookIcon from '../../assets/img/ContainerBookIcon.svg';
+import SecondSectionAstronauts from '../../assets/img/SecondSectionAstronauts.svg';
 
 const Home = ()=>{
     return(
@@ -21,10 +22,22 @@ const Home = ()=>{
                 </div>
             </section>
             <section className={styles.secondSection}>
-                <div className="content">
-                    <h2>Conecte-se com outros viajantes</h2>
+                <div className={styles.content}>
+                    <h2><span className={styles.highlightText}>Conecte-se</span> com outros viajantes</h2>
                     <p>Se conecte com outros estudantes ou com um profissional da área.</p>
                     <Button content='VER PLANOS' link='#'/>
+                </div>
+                <img src={SecondSectionAstronauts} alt="" />
+            </section>
+            <section className={styles.thirdSection}>
+                <div className={styles.containerContent}>
+                    
+                </div>
+                <div className={styles.containerContent}>
+
+                </div>
+                <div className={styles.containerContent}>
+
                 </div>
             </section>
         </main>
