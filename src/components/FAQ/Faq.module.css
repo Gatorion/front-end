@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.Conteudo {
+    margin: 0 auto;
+}
+
+.Titulo h1 {
+    color: white;
+    font-family: 'Orbitron';
+    margin-bottom: 20px;
+}
+
+.Titulo span {
+    display: grid;
+    color: #5BCFEF;
+}
+
+.Faq h4 {
+    color: #5BCFEF;
+}
+
+.Faq p {
+    color: white;
+}
+
+.Faq hr {
+    border: 0.1px solid;
+    color: #003A6D;
+    width: 100%;
+}
+
+.Faq {
+    display: grid;
+    gap: 20px;
+}

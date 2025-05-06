@@ -1,0 +1,1 @@
+export let usuarioAutenticado = false; // Guarda o estado do usuário, se está logado ou não

@@ -1,0 +1,13 @@
+.icon{
+    height: 40px;
+    width: auto;
+
+    color: #BAE6FF;
+    opacity: 75%;
+
+    transition: opacity .4s ease-in;
+}
+
+.icon:hover{
+    opacity: 100%;
+}
