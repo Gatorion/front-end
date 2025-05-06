@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
+.Conteudo {
+    margin: 0 auto;
+}
+
 .Titulo h1 {
     color: white;
     font-family: 'Orbitron';
+    margin-bottom: 20px;
 }
 
 .Titulo span {
     display: grid;
     color: #5BCFEF;
-}
-
-.Conteudo {
-    display: grid;
-    gap: 20px;
-    place-content: center;
-    font-family: 'IBM Plex Sans';
-    margin: 30px 100px;
 }
 
 .Faq h4 {
@@ -29,6 +26,7 @@
 .Faq hr {
     border: 0.1px solid;
     color: #003A6D;
+    width: 100%;
 }
 
 .Faq {

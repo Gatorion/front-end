@@ -4,34 +4,39 @@ import styles from "./Faq.module.css"
 //funcao
 function Faq() {
     return (
-        <main>
-            <div className={styles.Conteudo}>
-                <div className={styles.Titulo}>
-                    <h1>Dúvidas <span>frequentes</span></h1>
-                </div>
-                <div className={styles.Faq}>
-                    <hr />
-                    <h4>1. Para quem é o gatorion? </h4>
-                    <p>Para nós, que queremos aprender mais sobre astronomia e não encontramos fontes em português, conversar sobre o assunto, mas só achamos comunidades inativas e gostamos de compartilhar conhecimento.</p>
-
-                    <hr />
-
-                    <h4>2. Quais as formas de pagamento?</h4>
-                    <p>Através do cartão de crédito ou débito.</p>
-
-                    <hr />
-
-                    <h4>3. É possível cancelar?</h4>
-                    <p>Sim! A qualquer momento o usuário pode solicitar o cancelamento, desde que não sejam verificados débitos em aberto.</p>
-
-                    <hr />
-
-                    <h4>4. Existem outras plataformas como essa?</h4>
-                    <p>Não, somos a primeira plataforma a focar em uma rede social com conteúdos dinâmicos para o estudo de astronomia.</p>
-                </div>
+        <div className={styles.Conteudo}>
+            <div className={styles.Titulo}>
+                <h1>Dúvidas <span>frequentes</span></h1>
             </div>
-        </main>
+            <div className={styles.Faq}>
+                <hr />
+                <h4>1. Para quem é A Gatorion? </h4>
+                <p>A Gatorion é para todos que desejam aprender mais sobre astronomia de forma acessível, em português.
+                    Criamos essa plataforma porque sentimos falta de comunidades ativas e conteúdos confiáveis na área,
+                    e queremos compartilhar conhecimento com quem também ama explorar o universo.</p>
+
+                <hr />
+
+                <h4>2. Quais são as formas de pagamento?</h4>
+                <p>Aceitamos cartões de crédito e débito para facilitar o acesso à plataforma.</p>
+
+                <hr />
+
+                <h4>3. É possível cancelar a qualquer momento?</h4>
+                <p>Sim! Você pode cancelar sua assinatura a qualquer momento, desde que não haja débitos pendentes.</p>
+
+                <hr />
+
+                <h4>4. Existem outras plataformas como a Gatorion?</h4>
+                <p>Não. Somos pioneiros em oferecer uma rede social voltada exclusivamente para conteúdos dinâmicos e colaborativos sobre astronomia.</p>
+            </div>
+        </div>
     );
 }
-//export
+
+/* 
+TODO: 
+Implementar um componente para cada pergunta e passar os valores por props.
+*/
+// exportação
 export default Faq
