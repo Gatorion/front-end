@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.card {
+    display: grid;
+    margin-top: -200px;
+}
+
+.imagem img {
+    display: grid;
+    position: relative;
+    width: 350px;
+    top: 200px;
+    z-index: -2;
+}
+
+.pessoa {
+    font-family: IBM Plex Sans;
+    color: white;
+    width: 350px;
+}
+
+.pessoa h2 {
+    background: rgba(0, 58, 109, 0.75);
+    padding: 20px;
+    font-size: 32px;
+}
+
+.conteudo {
+    background: #000D21;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.conteudo p {
+    font-size: 23px;
+    padding: 20px;
+}
+
+.links {
+    display: flex;
+}
+
+.linkedin img {
+    width: 69px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.github img {
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
